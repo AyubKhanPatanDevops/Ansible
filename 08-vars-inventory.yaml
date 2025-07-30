@@ -1,4 +1,4 @@
-- name: varible from files
+- name: varible from inventory
   hosts: localhost
   vars_files:
   tasks:
