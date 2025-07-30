@@ -2,6 +2,6 @@
   hosts: localhost
   vars_files:
   tasks:
-- name: print information 
-  ansible.builtin.debug:
+  - name: print information 
+    ansible.builtin.debug:
     msg: "H,i we are learning {{course}} from trainer{{trainer}}, Duration is {{Duration}}."
