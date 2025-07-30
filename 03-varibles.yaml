@@ -6,5 +6,6 @@ vars: #varibale declaration
   Duration: "3months"
 task:
  -name: print information 
-  ansible.builtin.debug:
+ ansible.builtin.debug:
+
     msg: "Hi we are learning{{course}}  from {{Trainer}},Duration is {{Duration}}."
