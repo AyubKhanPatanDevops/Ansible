@@ -1,10 +1,10 @@
 - name: varibles from files
   hosts: localhost
   vars_prompt:
-  - name: username
+  - name: USERNAME
     prompt: please enter your username
     private: false
-  - name: password
+  - name: PASSWORD
     promt: please enter your password
     private: true  
   tasks:
