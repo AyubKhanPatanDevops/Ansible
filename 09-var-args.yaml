@@ -1,0 +1,6 @@
+- name: varible from argument
+  hosts: local host
+  tasks:
+  - name: get from args
+    ansible.builtin.debug:
+      msg: "Hello {{PERSON}}, good {{WISHES}}"
