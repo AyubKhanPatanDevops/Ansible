@@ -1,4 +1,4 @@
-- name: default baleu
+- name: default value
   hosts: local host
   tasks:
   - name: print default value
