@@ -10,5 +10,5 @@
   tasks:
    -  name: PLAY-2 and TASK-1
       ansible.builtin.debug:
-       msg: "Hello iam fromplay -2 and task -1"
+       msg: "Hello iam fromplay -2 and task -1S"
       
